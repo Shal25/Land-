@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up & Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <button class="btn" onclick="location.href='/signup_member'">Sign up as Member</button>
+        <button class="btn" onclick="location.href='/signup_user'">Sign up as User</button>
+        <p class="login-text">If already a Member/User then....</p>
+        <button class="btn" onclick="location.href='/login'">Login</button>
+    </div>
+</body>
+</html>

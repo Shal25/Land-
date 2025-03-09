@@ -1,0 +1,84 @@
+body {
+    background: url('https://www.wallpaperflare.com/static/863/706/520/skyscrapers-night-buildings-architecture-wallpaper.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    position: relative;
+}
+
+.container {
+    background: rgba(173, 181, 211, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgba(173, 181, 211, 0.6);
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgba(173, 181, 211, 0.9);
+}
+
+.login-text {
+    font-size: 14px;
+    font-style: italic;
+    color: #b0b0b0;
+}
+
+body {
+    background: url("https://i0.wp.com/www.customcrystal.com/wp-content/uploads/2017/01/Marble-Meaning-e1521184185300-1024x512.jpg?resize=525%2C263") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    position: relative;
+}
+
+.container {
+    background: rgba(173, 181, 211, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.signup-btn {
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.input-field {
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
